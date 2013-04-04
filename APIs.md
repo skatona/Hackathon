@@ -1,5 +1,7 @@
 # APIs
 
+Here is a collection of APIs we've gathered for quick access during the Hackathon.
+
 * Financial
     * [dev.markitondemand.com](http://dev.markitondemand.com)
         * [XRef](http://dev.markitondemand.com/#companylookup)
@@ -12,7 +14,7 @@
         * [Industry](http://developer.yahoo.com/yql/console/?q=select%20*%20from%20yahoo.finance.industry%20where%20id%3D%22112%22&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys)
         * [Options](http://developer.yahoo.com/yql/console/?q=SELECT%20*%20FROM%20yahoo.finance.options%20WHERE%20symbol%3D'GOOG'%20AND%20expiration%3D'2010-06'&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys)
         * [Historical Data](http://developer.yahoo.com/yql/console/?q=select%20*%20from%20yahoo.finance.historicaldata%20where%20symbol%20%3D%20%22YHOO%22%20and%20startDate%20%3D%20%222009-09-11%22%20and%20endDate%20%3D%20%222010-03-10%22&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys)
-        * [Quant](http://developer.yahoo.com/yql/console/?q=select%20*%20from%20yahoo.finance.quant%20where%20symbol%20in%20(%22YHOO%22)&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys)
+        * [Quant](http://developer.yahoo.com/yql/console/?q=select%20*%20from%20yahoo.finance.quant%20where%20symbol%20in%20%22YHOO%22&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys)
 * Social
     * [StockTwits](http://stocktwits.com/developers/docs) or [StockTwits JSON API](https://api.stocktwits.com/api/2/streams/symbol/GOOG.json)
 * News
