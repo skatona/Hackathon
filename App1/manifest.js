@@ -1,9 +1,9 @@
 F2_jsonpCallback_com_rbc_hackathon1({
 	"scripts":[
-		"appclass.js"
+		"http://skatona.github.io/Hackathon/App1/appclass.js"
 	],	 
 	"styles":[
-		"app.css"
+		"http://skatona.github.io/Hackathon/App1/app.css"
 	],	 
 	"apps":[{
 		"data": {},
