@@ -2,7 +2,9 @@
 
 This guide is intended to provide F2 Hackathon participants instructions for using a quick and easy hosting solution. By committing code to GitHub Pages (`gh-pages`), you'll have public access to your assets at:
 
-[`http://openf2.github.io/Hackathon/`](http://openf2.github.io/Hackathon/)
+`http://YOUR_USER_NAME.github.io/Hackathon/`
+
+You need a GitHub account to proceed. [Sign up for free](https://github.com/signup/free).
 
 ## Disclaimer
 
@@ -22,33 +24,38 @@ If you don't want to use the command line, there are Windows and Mac clients ava
 * [GitHub for Mac](http://mac.github.com/)
 * [GitHub for Windows](http://windows.github.com/)
 
-## Clone the Hackathon Repo
+## Fork the Hackathon Repo
 
-Once you have Git and GitHub installed, you need the **Hackathon** repo. Clone it to your computer.
 
-Command line:
+### Step 1: Fork
 
-`git clone git@github.com:OpenF2/Hackathon.git`
+Once you have Git and GitHub installed, you need to **fork** the Hackathon repo.  
 
-Or get help: [Working with Repositories](https://help.github.com/articles/working-with-repositories)
+![](https://github-images.s3.amazonaws.com/help/Bootcamp-Fork.png)
+
+### Step 2: Clone
+
+You've successfully forked the Hackathon repository, but so far it only exists on GitHub. To be able to work on the project, you will need to clone it to your local machine.
+
+Run the following code:
+
+`git clone git@github.com:YOUR_USER_NAME/Hackathon.git`
+
+Or get help: [Fork a repo](https://help.github.com/articles/fork-a-repo) and [working with repositories](https://help.github.com/articles/working-with-repositories).
 
 ## Checkout `gh-pages`
 
-All of your code must be in the `gh-pages` branch in the Hackathon repository. Since anyone can commit to this repo, simply switch from `master` to `gh-pages`.
+All of your code must be in the `gh-pages` branch in your Hackathon repository. Simply switch from `master` to `gh-pages`.
 
-`git checkout gh-pages && git pull`
+`git checkout gh-pages`
 
 ## Add Your code
 
-Create a folder for your code within the `gh-pages` branch. It is **best practice** to use your name or something unique to identify your assets.
+Create a folder for your code within the `gh-pages` branch. Develop something, test it, commit it, then push it to GitHub.
 
-For example:
+Commit your code:
 
-`..\OpenF2\Hackathon\a_unique_name\`
-
-Then commit your code:
-
-`git commit -a -m 'Adding my code'`
+`git commit -a -m 'Adding my great code'`
 
 Finally push it to GitHub:
 
@@ -58,7 +65,7 @@ Finally push it to GitHub:
 
 Once changes are committed to `gh-pages`, you'll need to wait a couple of minutes for them to appear. Then rejoice!
 
-[`http://openf2.github.io/Hackathon/a_unique_name/`](http://openf2.github.io/Hackathon/a_unique_name/)
+[`http://YOUR_USER_NAME.github.io/Hackathon/a_unique_name/`](http://YOUR_USER_NAME.github.io.github.io/Hackathon/)
 
 ## Help
 
